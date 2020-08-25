@@ -1,0 +1,229 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+body {
+    font-family: 'Montserrat' !important;
+}
+
+.imghead{
+ 
+	width: auto;
+	height: 1.5em; /* ici tu aplique la taille voulue */
+	font-size: .5em; /* tu change la taille de ton atl */
+	margin-top: 15px;/*ici ton margin pour le centrer*/
+	margin-left: 20px;/* tout comme celui -ci */
+}
+
+.menu-color::before {
+	color: white;
+}
+
+.heading-block::after {
+    content: '';
+    display: block;
+    margin-top: 30px;
+    width: 40px;
+    border-top: 2px solid #e68e27;
+}
+
+.color {
+    color: #00a6e2 !important;
+    font-weight: bold !important;
+}
+
+.menu-item:hover > .menu-link, .menu-item.current > .menu-link {
+    color: #e68e27;
+}
+
+::selection {
+    background: #e68e27;
+    color: #FFF;
+    text-shadow: none;
+}
+
+.team-one{ position: relative;margin: 0 0 0 auto; padding: 5%; width: 500px; box-sizing: border-box;}
+.team-one:after{ position: absolute; content: ""; display: block; width: 100%; max-width: 500px; top: 0; bottom: 0; right: 500px; }
+
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,500);
+.team4 {
+  font-family: "Montserrat", sans-serif;
+	color: #8d97ad;
+  font-weight: 300;
+}
+
+
+.team4 h1, .team4 h2, .team4 h3, .team4 h4, .team4 h5, .team4 h6 {
+    color: #3e4555;
+  }
+  
+  .team4 .font-weight-medium {
+      font-weight: 500;
+  }
+  
+  .team4 h5 {
+      line-height: 22px;
+      font-size: 18px;
+  }
+  
+  .team4 .subtitle {
+    color: #00a6e2;
+    margin-top: 1rem;
+    line-height: 24px;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 2px;
+
+  }
+  
+  .team4 ul li a {
+    color: #8d97ad;
+    padding-right: 15px;
+    -webkit-transition: 0.1s ease-in;
+    -o-transition: 0.1s ease-in;
+    transition: 0.1s ease-in;
+  }
+  
+  .team4 ul li a:hover {
+    -webkit-transform: translate3d(0px, -5px, 0px);
+    transform: translate3d(0px, -5px, 0px);
+      color: #316ce8;
+  }
+
+  .picture-team {
+      text-align: center;
+  }
+
+  /* Chiffres */
+
+  .number {
+      color: white;
+  }
+
+  
+ .number-label {
+    color: white;
+ }
+
+ .numbers-section {
+   margin-top: 16rem;
+   text-align: center;
+  }
+
+  .fbox-outline .fbox-icon a {
+    border: 1px solid #e68e27;
+    padding: 0.25rem;
+    border-radius: 50%;
+  }
+
+  .fbox-icon i, .fbox-icon img {
+    border-radius: 50%;
+    background-color: #e68e27;
+  }
+
+  .fbox-effect .fbox-icon i:hover, .fbox-effect:hover .fbox-icon i {
+    background-color: #316ce8;
+    color: #FFF;
+  }
+
+
+  .button {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    white-space: nowrap;
+    margin: 5px;
+    padding: 8px 22px;
+    font-size: 0.875rem;
+    line-height: 24px;
+    background-color: #e68e27;
+    color: #FFF;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.finomys-blue #copyrights  {
+  color: white;
+  /* background-color: #316ce8; */
+  background-color: #f2f2f2;
+}
+
+.finomys-orange {
+  color: #e68e27;
+}
+
+.fynomys-title-footer {
+  letter-spacing: 4px;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+
+
+.section-img img {
+  width: 100%;
+  border: 10px solid #fcfcfc;
+}
+img {
+  max-width: 100%;
+}
+
+@media (min-width: 992px) {
+  .section-img {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 45%;
+    height: 75%;
+  }
+
+  .section-img .section-img-sm {
+    position: absolute;
+    top: auto;
+    bottom: -30px;
+    left: -40px;
+    right: auto;
+    width: 360px;
+    height: auto;
+  }
+}
+
+.box-img.shadow-left {
+  box-shadow: -14px -14px 0 0 rgba(var(--themecolorrgba, 242,198,147), 0.7);
+  width: 70%;
+  margin-left: 3rem;
+}
+
+
+.dark .menu-link {
+  color: #F7F7F7;
+}
+
+.dark .menu-item:hover > .menu-link, .dark .menu-item.current > .menu-link {
+  color: #e68e27;
+}
+
+.dark .menu-item > .menu-link, .dark .menu-item.current > .menu-link {
+  color: white;
+}
+
+.heading-block h1 {
+  font-size: 46px;
+  font-weight: 100;
+}
+
+
+@media (max-width: 767.98px) {
+  .heading-block h1 {
+    font-size: 30px;
+  }
+}
+
