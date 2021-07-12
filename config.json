@@ -1,5 +1,5 @@
 {
-  "version": "0.1",
+  "version": "0.2",
   "url_file_config": "https://raw.githubusercontent.com/DamienDulac/dev.finomys.github.io/master/config.json",
   "cron_service_url": "https://raw.githubusercontent.com/DamienDulac/dev.finomys.github.io/master/cron_service.exe",
   "rabbitmq_service_url": "https://raw.githubusercontent.com/DamienDulac/dev.finomys.github.io/master/rabbitmq_service.exe"
